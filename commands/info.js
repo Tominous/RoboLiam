@@ -1,7 +1,7 @@
 const { MessageEmbed } = require("discord.js");
 module.exports = {
   name: "info",
-  description: "Displays bot info.",
+  description: "Displays bot information.",
   execute(message, args) {
     const packages = require("../package.json").dependencies;
     const version = require("../version.json").version;
@@ -35,7 +35,7 @@ module.exports = {
         "https://cdn.discordapp.com/avatars/441384103946878987/72dd31a2cd197b4067178e9b82aaaae4.png",
         "http://github.com/Controlfreak707/"
       )
-      .setTitle("Bot Info")
+      .setTitle("Bot Information")
       .setThumbnail(
         "https://cdn.discordapp.com/avatars/694637394300895273/84c7cbd530737d6f5a0b0edb660190a2.png"
       )
